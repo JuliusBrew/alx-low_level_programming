@@ -18,7 +18,7 @@ int main(void)
 		}
 		else 
 		{
-			char hChar = 'A' + (num - 10);
+			char hChar = 'a' + (num - 10);
 			putchar(hChar);
 		}
 	}
