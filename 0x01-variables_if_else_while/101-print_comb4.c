@@ -16,7 +16,7 @@ int main(void)
 		{
 			for (z = y + 1; z <= 9; z++)
 			{
-				if ((x != y)!= z)
+				if ((x != y) != z)
 				{
 					putchar(x + '0');
 					putchar(y + '0');
