@@ -2,14 +2,19 @@
 #include <stdlib.h>
 
 /**
- * main - print reversed lower case alphabet
+ * main - Prints the alphabets in lower case
  * Return: Success
  */
 
 int main(void)
 {
-	char rev;
-	for (rev = 'z'; rev >= 'a'; rev--)
-	putchar(rev);
+	char alphabet = 'z';
+
+	while (alphabet != 'a' - 1)
+	{
+		putchar(alphabet);
+		alphabet--;
+	}
 	putchar('\n');
+	return (0);
 }
