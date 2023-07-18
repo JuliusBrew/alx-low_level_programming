@@ -11,6 +11,7 @@ int main(void)
 	const char *text = "_putchar";
 
 	strgout(text);
+	_putchar('\n');
 
 	return (0);
 }
