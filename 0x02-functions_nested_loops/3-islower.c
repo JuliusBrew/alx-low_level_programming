@@ -2,6 +2,7 @@
 
 /**
  * _islower - returns 1 if alphabet is lower case
+ * @c: The character to print
  * Return: Always (Success)
  *
  */
