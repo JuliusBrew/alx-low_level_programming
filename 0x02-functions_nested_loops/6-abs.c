@@ -2,7 +2,7 @@
 
 /**
  *_abs - returns 1 if alphabet is lower case
- * @c: The character to print
+ * @n: The character to print
  * Return: Always (Success)
  *
  */
