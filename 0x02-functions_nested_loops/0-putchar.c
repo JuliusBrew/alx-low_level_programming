@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
 
 /**
  * main - Prints _putchar
@@ -10,6 +8,9 @@
 
 int main(void)
 {
-	printf("_putchar\n");
+	const char *text = "_putchar";
+
+	strgout(text);
+
 	return (0);
 }
