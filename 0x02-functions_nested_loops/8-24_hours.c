@@ -4,7 +4,7 @@
  * jack_bauer - returns 1 if alphabet is lower case
  * Return: Always (Success)
  *
- */`
+ */
 
 void jack_bauer(void)
 {
