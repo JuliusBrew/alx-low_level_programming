@@ -11,10 +11,11 @@ int main(void)
 {
 	int x;
 	long y = 1, z = 2;
-	
+
 	while (x < 50)
 	{
 	if (x == 0)
+	{
 		printf("%ld", y);
 	}
 	else if (x == 1)
@@ -26,6 +27,7 @@ int main(void)
 	printf(", %ld", z);
 	}
 	x++;
+	}
 	printf("\n");
 	return (0);
 }
