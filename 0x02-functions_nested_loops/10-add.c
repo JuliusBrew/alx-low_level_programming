@@ -2,7 +2,8 @@
 
 /**
  * add - returns the sum of two integers
- * @c: The character to print
+ * @x: number to sum
+ * @y: number to sum
  * Return: Always (Success)
  *
  */
