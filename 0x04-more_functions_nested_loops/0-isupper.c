@@ -2,7 +2,7 @@
 
 /**
  * _isupper - check the code.
- *
+ *@c: variable to check
  * Return: success
  */
 
