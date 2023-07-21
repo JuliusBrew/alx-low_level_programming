@@ -8,7 +8,7 @@
 void more_numbers(void)
 {
 	int x;
-	int y = 15;
+	int y = 11;
 
 	while (--y)
 	{
