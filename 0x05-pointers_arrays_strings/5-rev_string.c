@@ -8,21 +8,17 @@
 
 void rev_string(char *s)
 {
-	int word = 0;
-	int a = 0;
-	int z = word - 1;
+	int len = 0, index = 0;
+	char tmp;
 
-	while (s[word] != '\0')
+	while (s[index++])
+	len++;
+
+	for (index = len - 1; index >= len / 2; index--)
 	{
-	word++;
+	tmp = s[index];
+	s[index] = s[len - index - 1];
+	s[len - index - 1] = tmp;
 	}
 
-	while (a < z)
-	{
-	char hold = s[a];
-
-	s[z] = hold;
-	a++;
-	z--;
-	}
 }
