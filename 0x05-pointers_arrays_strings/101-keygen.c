@@ -18,7 +18,7 @@ int main(void)
 
 	for (x = 0; x < 100; x++)
 	{
-	paswd[x] - rand() % 78;
+	paswd[x] = rand() % 78;
 	sum += (paswd[x] + '0');
 	putchar(paswd[x] + '0');
 
