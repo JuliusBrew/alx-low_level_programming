@@ -2,7 +2,7 @@
 
 /**
  * print_triangle - prints triangle according to parameter
- * size: seed for the triangle
+ * @size: seed for the triangle
  * Return: Always 0.
  */
 
